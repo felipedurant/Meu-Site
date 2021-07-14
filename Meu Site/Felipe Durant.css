@@ -19,6 +19,7 @@ header div h1{
 
 header div ul{
     list-style: none;
+    float: right;
 }
 header div ul li {
     display: inline-block;
@@ -55,6 +56,18 @@ header div ul li a:hover{
     font-family: 'Lexend Exa', sans-serif;
 }
 #aboutme p{
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+}
+#photos h1{
+    font-size: 24px;
+    font-family: 'Lexend Exa', sans-serif;
+}
+#photos h2{
+    font-size: 20px;
+    font-family: 'Lexend Exa', sans-serif;
+}
+#photos p{
     font-family: 'Prompt', sans-serif;
     font-size: 18px;
 }
