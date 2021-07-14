@@ -1,0 +1,60 @@
+body{
+    background-color: #717485;
+}
+main{
+    width: 960px;
+    margin: auto;
+}
+header{
+    background-color: #303138;
+    font-family: 'Lexend Exa', sans-serif;
+}
+header div h1{
+    /* padding: top, direita, baixo, esquerda */
+    padding-top: 20px;
+    padding-right: 600px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+header div ul{
+    list-style: none;
+}
+header div ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+header div ul li a{
+    text-decoration: none;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 18px;
+    color: #1F1F1F;
+}
+header div ul li a:hover{
+    text-decoration: underline
+}
+
+#aboutme img{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+
+}
+#photos img{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+#aboutme h1{
+    font-size: 24px;
+    font-family: 'Lexend Exa', sans-serif;
+}
+#aboutme h2{
+    font-family: 'Lexend Exa', sans-serif;
+}
+#aboutme p{
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+}
